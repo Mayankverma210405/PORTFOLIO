@@ -4,7 +4,7 @@ A responsive personal portfolio showcasing my work in AI/ML, data engineering, b
 
 ## Live Demo
 
-Add your deployed GitHub Pages URL here:
+Deployed GitHub Pages URL here:
 
 `https://mayankverma210405.github.io/<repository-name>/`
 
