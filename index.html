@@ -1,673 +1,229 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Mayank Verma is a computer science engineer building machine learning systems, data platforms and cloud-native backend infrastructure."
-    />
-    <meta name="theme-color" content="#f7f4ee" />
-    <title>Mayank Verma — AI/ML &amp; Data Engineer</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101318" />
+  <meta name="description" content="Mayank Verma builds data systems, analytical tools, and applied AI workflows. Explore selected projects and experience." />
+  <title>Mayank Verma — Data Systems & Applied AI</title>
+  <link rel="stylesheet" href="./styles.css?v=2" />
+  <script src="./script.js?v=2" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
 
-    <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="Mayank Verma, home">
-        <span class="brand-mark" aria-hidden="true">M</span>
-        <span>Mayank Verma</span>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Mayank Verma, back to top">
+        <span class="brand-mark">M<span>V</span></span>
+        <span class="brand-caption">MAYANK<br />VERMA</span>
       </a>
 
-      <button
-        class="menu-button"
-        type="button"
-        aria-expanded="false"
-        aria-controls="site-nav"
-      >
-        <span class="sr-only">Toggle navigation</span>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
         <span></span><span></span>
       </button>
 
-      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a href="#work">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a class="nav-cta" href="#contact"
-          >Contact <span aria-hidden="true">↗</span></a
-        >
-      </nav>
-    </header>
-
-    <main id="main">
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">
-            <span></span> AI/ML · Data Engineering · Cloud Infrastructure
-          </p>
-          <h1 id="hero-title">
-            I turn raw data into <em>useful intelligence.</em>
-          </h1>
-          <p class="hero-intro">
-            I’m Mayank, a Computer Science engineer building machine learning
-            systems, data platforms and cloud-native backend infrastructure.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-dark" href="#work"
-              >Explore my projects <span aria-hidden="true">↓</span></a
-            >
-            <a class="text-link" href="mailto:mayankverma210405@gmail.com"
-              >mayankverma210405@gmail.com <span aria-hidden="true">↗</span></a
-            >
-          </div>
-        </div>
-
-        <div
-          class="hero-art reveal"
-          aria-label="Abstract data engineering illustration"
-        >
-          <div class="art-card art-card-main data-art">
-            <span class="spark spark-one">✦</span>
-            <span class="spark spark-two">✦</span>
-            <div class="art-terminal">
-              <span class="terminal-bar"><i></i><i></i><i></i></span>
-              <code
-                >SELECT insight<br />FROM data<br />WHERE impact = true;</code
-              >
-            </div>
-            <p>Data with<br /><strong>direction.</strong></p>
-          </div>
-          <div class="art-badge">AI / ML<br />&amp; DATA</div>
-          <div class="art-pill">Noida, India ✦</div>
-        </div>
-
-        <div class="scroll-note" aria-hidden="true">
-          Scroll to discover <span>↓</span>
-        </div>
-      </section>
-
-      <section class="marquee" aria-label="Areas of expertise">
-        <div class="marquee-track">
-          <span>Machine learning</span><i>✦</i><span>Data engineering</span
-          ><i>✦</i><span>Cloud infrastructure</span><i>✦</i
-          ><span>Backend systems</span><i>✦</i>
-          <span aria-hidden="true">Machine learning</span
-          ><i aria-hidden="true">✦</i
-          ><span aria-hidden="true">Data engineering</span
-          ><i aria-hidden="true">✦</i
-          ><span aria-hidden="true">Cloud infrastructure</span
-          ><i aria-hidden="true">✦</i
-          ><span aria-hidden="true">Backend systems</span
-          ><i aria-hidden="true">✦</i>
-        </div>
-      </section>
-
-      <section
-        class="work section-shell"
-        id="work"
-        aria-labelledby="work-title"
-      >
-        <div class="section-heading reveal">
-          <div>
-            <p class="kicker">01 / Featured projects</p>
-            <h2 id="work-title">
-              Engineering ideas into<br /><em>working systems.</em>
-            </h2>
-          </div>
-          <p>
-            Selected work across serverless analytics, privacy-first AI
-            automation and interactive product systems.
-          </p>
-        </div>
-
-        <div class="project-grid">
-          <article class="project project-large reveal">
-            <a
-              class="project-visual visual-lumen"
-              href="https://github.com/Mayankverma210405?tab=repositories"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="View Mayank's GitHub repositories"
-            >
-              <span class="project-number">01</span>
-              <div class="lumen-orbit orbit-one"></div>
-              <div class="lumen-orbit orbit-two"></div>
-              <div class="lumen-center project-core">
-                S3<span>SERVERLESS OLAP</span>
-              </div>
-              <span class="cloud-label label-one">DuckDB</span>
-              <span class="cloud-label label-two">FastAPI</span>
-              <span class="view-project">View repositories ↗</span>
-            </a>
-            <div class="project-meta">
-              <div>
-                <h3>S3-Native Decoupled Compute OLAP Query Engine</h3>
-                <p>Cloud infrastructure · Data engineering</p>
-              </div>
-              <p>Jan 2026 — Jun 2026</p>
-            </div>
-            <div class="project-details">
-              <p>
-                Architected a cloud-native, serverless OLAP engine that runs
-                analytical queries directly over raw AWS S3 datasets using
-                Python, FastAPI, DuckDB and SQL.
-              </p>
-              <ul>
-                <li>
-                  <strong>95%</strong> lower infrastructure operating costs
-                  versus managed RDBMS deployments.
-                </li>
-                <li>
-                  <strong>90%</strong> less network overhead through HTTP Range
-                  Requests, zero-copy streaming and predicate pushdown.
-                </li>
-                <li>
-                  <strong>99%</strong> reduction in backend memory spikes using
-                  cryptographic S3 pre-signed upload URLs.
-                </li>
-                <li>
-                  <strong>15× faster</strong> complex aggregations with
-                  sub-500ms latency across 1M+ unindexed records.
-                </li>
-              </ul>
-              <div class="tag-list">
-                <span>Python</span><span>FastAPI</span><span>DuckDB</span
-                ><span>SQL</span><span>AWS S3</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="project project-large reveal">
-            <a
-              class="project-visual visual-sundae visual-workflow"
-              href="https://github.com/Mayankverma210405?tab=repositories"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="View Mayank's GitHub repositories"
-            >
-              <span class="project-number">02</span>
-              <div class="workflow-canvas" aria-hidden="true">
-                <span class="workflow-node node-webhook">WEBHOOK</span>
-                <span class="workflow-line line-one"></span>
-                <span class="workflow-node node-router">ROUTE</span>
-                <span class="workflow-line line-two"></span>
-                <span class="workflow-node node-ai">LOCAL AI</span>
-                <span class="workflow-line line-three"></span>
-                <span class="workflow-node node-action">ACTION</span>
-              </div>
-              <div class="workflow-title">n8n ×<br />LocalAI</div>
-              <span class="view-project">View repositories ↗</span>
-            </a>
-            <div class="project-meta">
-              <div>
-                <h3>LocalAI Workflow Orchestration System</h3>
-                <p>Event-driven automation · AI pipelines</p>
-              </div>
-              <p>Dec 2024 — Jan 2025</p>
-            </div>
-            <div class="project-details">
-              <p>
-                Built a privacy-first, event-driven orchestration system using
-                n8n, LocalAI, Docker and REST APIs to process and respond to
-                tasks without external AI dependencies.
-              </p>
-              <ul>
-                <li>
-                  Implemented webhook ingestion for incoming emails and messages
-                  with multi-step parsing, classification and response
-                  generation.
-                </li>
-                <li>
-                  Designed intent- and priority-based branching to route inputs
-                  through specialized automation paths.
-                </li>
-                <li>
-                  Integrated local LLM inference for private structured
-                  extraction from unstructured text.
-                </li>
-                <li>
-                  Built <strong>3 reusable workflow nodes</strong> to reduce
-                  duplicated automation logic.
-                </li>
-              </ul>
-              <div class="tag-list">
-                <span>n8n</span><span>LocalAI</span><span>Docker</span
-                ><span>REST APIs</span><span>LLMs</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="project project-large reveal">
-            <a
-              class="project-visual visual-stockpilot"
-              href="https://stock-pilot-inventory-management.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Open the StockPilot live demo"
-            >
-              <span class="project-number">03</span>
-
-              <div class="stockpilot-dashboard" aria-hidden="true">
-                <div class="stockpilot-sidebar">
-                  <strong>SP</strong>
-                  <span class="active"></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-
-                <div class="stockpilot-main">
-                  <div class="stockpilot-topbar">
-                    <b>Inventory overview</b>
-                    <span></span>
-                  </div>
-
-                  <div class="stockpilot-kpis">
-                    <div>
-                      <small>PRODUCTS</small>
-                      <strong>08</strong>
-                    </div>
-
-                    <div>
-                      <small>WAREHOUSES</small>
-                      <strong>03</strong>
-                    </div>
-
-                    <div>
-                      <small>STOCK VALUE</small>
-                      <strong>₹18L</strong>
-                    </div>
-
-                    <div>
-                      <small>LOW STOCK</small>
-                      <strong>04</strong>
-                    </div>
-                  </div>
-
-                  <div class="stockpilot-panels">
-                    <div class="stockpilot-chart">
-                      <small>STOCK ACTIVITY</small>
-
-                      <div class="stockpilot-bars">
-                        <i style="height: 42%"></i>
-                        <i style="height: 68%"></i>
-                        <i style="height: 53%"></i>
-                        <i style="height: 82%"></i>
-                        <i style="height: 61%"></i>
-                        <i style="height: 91%"></i>
-                        <i style="height: 73%"></i>
-                      </div>
-                    </div>
-
-                    <div class="stockpilot-list">
-                      <small>LOW-STOCK ALERTS</small>
-                      <p><span></span>Warehouse tablet</p>
-                      <p><span></span>Safety vest</p>
-                      <p><span></span>Shipping boxes</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <span class="stockpilot-wordmark">
-                STOCK<span>PILOT</span>
-              </span>
-
-              <span class="cloud-label stock-label-one">React</span>
-              <span class="cloud-label stock-label-two">TypeScript</span>
-
-              <span class="view-project">Open live demo ↗</span>
-            </a>
-
-            <div class="project-meta">
-              <div>
-                <h3>StockPilot — Enterprise Inventory Management System</h3>
-                <p>Frontend engineering · Inventory operations</p>
-              </div>
-
-              <p>Jul 2026</p>
-            </div>
-
-            <div class="project-details">
-              <p>
-                Built a responsive inventory management system that models
-                multi-warehouse stock operations through polished,
-                role-aware workflows.
-              </p>
-
-              <ul>
-                <li>
-                  Implemented product and warehouse management with unique
-                  SKU validation, warehouse-code validation and persistent
-                  browser-based demo data.
-                </li>
-
-                <li>
-                  Designed a stock-in and stock-out ledger with
-                  <strong>negative-stock prevention</strong>, opening-inventory
-                  traceability and operator attribution.
-                </li>
-
-                <li>
-                  Added low-stock alerts, product search, operational reports,
-                  CSV exports and separate administrator and inventory-manager
-                  experiences.
-                </li>
-
-                <li>
-                  Deployed the Vite single-page application on Vercel with
-                  direct-route support and a publicly accessible live demo.
-                </li>
-              </ul>
-
-              <div class="tag-list">
-                <span>React</span>
-                <span>TypeScript</span>
-                <span>Vite</span>
-                <span>React Router</span>
-                <span>LocalStorage</span>
-                <span>Vercel</span>
-              </div>
-
-              <div class="project-actions">
-                <a
-                  class="project-action-primary"
-                  href="https://stock-pilot-inventory-management.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live demo ↗
-                </a>
-
-                <a
-                  href="https://github.com/Mayankverma210405/StockPilot-Inventory-Management"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View source ↗
-                </a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="about" id="experience" aria-labelledby="experience-title">
-        <div class="about-inner section-shell">
-          <div class="experience-panel reveal" aria-label="Internship summary">
-            <div class="experience-company">
-              <span>NAAPJHOK</span><small>PVT LTD</small>
-            </div>
-            <div class="experience-stat">
-              <strong>10K+</strong><span>records prepared</span>
-            </div>
-            <div class="experience-stat">
-              <strong>15+</strong><span>variables explored</span>
-            </div>
-            <div class="experience-stat">
-              <strong>20%</strong><span>accuracy improvement</span>
-            </div>
-            <span class="portrait-note">Jun — Jul 2025</span>
-          </div>
-          <div class="about-copy reveal">
-            <p class="kicker">02 / Professional experience</p>
-            <h2 id="experience-title">
-              From messy data to<br /><em>measurable results.</em>
-            </h2>
-            <p class="about-lead">
-              AI/ML Intern · Data Analytics &amp; Machine Learning<br /><small
-                >Naapjhok PVT LTD · Noida, India</small
-              >
-            </p>
-            <ul class="experience-list">
-              <li>
-                Analyzed structured customer and order data with Python and
-                Pandas to uncover behavioral patterns for recommendation
-                modeling.
-              </li>
-              <li>
-                Cleaned missing values and engineered features across 10,000+
-                records, improving model readiness and data quality.
-              </li>
-              <li>
-                Conducted EDA across 15+ customer variables using Matplotlib and
-                Seaborn to identify trends, outliers and opportunities.
-              </li>
-
-              <li>
-                Built KNN and Logistic Regression recommendation models,
-                improving recommendation accuracy by 20%.
-              </li>
-              <li>
-                Applied cross-validation, hyperparameter tuning and metric-based
-                evaluation to improve generalization.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="services section-shell"
-        id="skills"
-        aria-labelledby="skills-title"
-      >
-        <div class="section-heading reveal">
-          <div>
-            <p class="kicker">03 / Technical toolkit</p>
-            <h2 id="skills-title">
-              Strong foundations.<br /><em>Modern tools.</em>
-            </h2>
-          </div>
-          <p>
-            A practical stack for taking data-intensive products from
-            exploration to reliable deployment.
-          </p>
-        </div>
-
-        <div class="service-list">
-          <article class="service reveal">
-            <span class="service-number">01</span>
-            <div
-              class="service-icon icon-strategy skill-icon"
-              aria-hidden="true"
-            >
-              { }
-            </div>
-            <div>
-              <h3>Languages &amp; fundamentals</h3>
-              <p>
-                Core programming backed by essential computer science concepts.
-              </p>
-            </div>
-            <ul>
-              <li>Python · SQL · C++ · JavaScript</li>
-              <li>OOP · OS · DBMS</li>
-              <li>Computer Networks</li>
-            </ul>
-          </article>
-          <article class="service reveal">
-            <span class="service-number">02</span>
-
-            <div class="service-icon icon-design skill-icon" aria-hidden="true">
-              ML
-            </div>
-            <div>
-              <h3>Data &amp; machine learning</h3>
-              <p>
-                Analysis, modeling, evaluation and high-performance analytical
-                workloads.
-              </p>
-            </div>
-            <ul>
-              <li>Pandas · NumPy · Scikit-learn</li>
-              <li>Matplotlib · Seaborn</li>
-              <li>DuckDB · Jupyter</li>
-            </ul>
-          </article>
-          <article class="service reveal">
-            <span class="service-number">03</span>
-            <div class="service-icon icon-code skill-icon" aria-hidden="true">
-              API
-            </div>
-            <div>
-              <h3>Backend &amp; databases</h3>
-              <p>
-                Production APIs and well-structured relational data systems.
-              </p>
-            </div>
-            <ul>
-              <li>FastAPI · REST · SQLAlchemy</li>
-              <li>PostgreSQL · MySQL</li>
-              <li>Modeling · Normalization · Optimization</li>
-            </ul>
-          </article>
-          <article class="service reveal">
-            <span class="service-number">04</span>
-            <div class="service-icon icon-cloud skill-icon" aria-hidden="true">
-              AWS
-            </div>
-            <div>
-              <h3>Cloud, infrastructure &amp; tools</h3>
-              <p>
-                Deployable, scalable systems and effective engineering
-                workflows.
-              </p>
-            </div>
-            <ul>
-              <li>AWS EC2 · S3 · Docker</li>
-              <li>Distributed · Serverless · ETL/ELT</li>
-              <li>Git · GitHub · Postman · n8n · VS Code</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section
-        class="credentials section-shell"
-        id="education"
-        aria-labelledby="education-title"
-      >
-        <div class="section-heading reveal">
-          <div>
-            <p class="kicker">04 / Education &amp; credentials</p>
-            <h2 id="education-title">
-              Always learning.<br /><em>Always building.</em>
-            </h2>
-          </div>
-          <p>
-            Formal computer science training strengthened with applied AI and
-            cloud certifications.
-          </p>
-        </div>
-        <div class="credential-grid">
-          <article class="credential-card education-card reveal">
-            <span class="credential-type">Education</span>
-            <div>
-              <p class="credential-date">Jun 2022 — Jul 2026</p>
-              <h3>B.Tech in Computer Science</h3>
-              <p>Jaypee Institute of Information Technology</p>
-              <p>Noida, Uttar Pradesh</p>
-            </div>
-            <span class="credential-mark" aria-hidden="true">JIIT</span>
-          </article>
-          <article class="credential-card certification-card reveal">
-            <span class="credential-type">Certification</span>
-            <div>
-              <p class="credential-date">Jan 2025</p>
-              <h3>OCI 2025 Certified AI Foundations Associate</h3>
-              <p>Oracle</p>
-              <p>
-                Achieved a 98% score, demonstrating a strong understanding of
-                OCI AI services and model lifecycle management.
-              </p>
-              <a
-                class="credential-link"
-                href="mailto:mayankverma210405@gmail.com?subject=Oracle%20certificate%20request"
-                >Certificate available on request ↗</a
-              >
-            </div>
-            <span class="credential-score">98%</span>
-          </article>
-          <article class="credential-card certification-card alt reveal">
-            <span class="credential-type">Certification</span>
-            <div>
-              <p class="credential-date">Aug 2024</p>
-              <h3>AI / Machine Learning Certification</h3>
-              <p>Teachnook</p>
-              <p>
-                Built supervised and unsupervised ML models with feature
-                engineering and evaluation pipelines using Python and
-                Scikit-learn.
-              </p>
-              <a
-                class="credential-link"
-                href="mailto:mayankverma210405@gmail.com?subject=Teachnook%20certificate%20request"
-                >Certificate available on request ↗</a
-              >
-            </div>
-            <span class="credential-mark" aria-hidden="true">AI</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="contact" id="contact" aria-labelledby="contact-title">
-        <div class="contact-orbit orbit-a" aria-hidden="true"></div>
-        <div class="contact-orbit orbit-b" aria-hidden="true"></div>
-        <div class="contact-inner reveal">
-          <p class="kicker">05 / Let’s build something useful</p>
-          <h2 id="contact-title">
-            Have an opportunity?<br /><em>Let’s connect.</em>
-          </h2>
-          <a class="contact-button" href="mailto:mayankverma210405@gmail.com"
-            >Email Mayank <span aria-hidden="true">↗</span></a
-          >
-          <div class="contact-links">
-            <a href="tel:+919138304226">+91 91383 04226</a>
-            <a
-              href="https://www.linkedin.com/in/mayankverma2128/"
-              target="_blank"
-              rel="noreferrer"
-              >LinkedIn ↗</a
-            >
-            <a
-              href="https://github.com/Mayankverma210405"
-              target="_blank"
-              rel="noreferrer"
-              >GitHub ↗</a
-            >
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <a class="brand footer-brand" href="#top"
-        ><span class="brand-mark" aria-hidden="true">M</span
-        ><span>Mayank Verma</span></a
-      >
-      <div class="footer-links" aria-label="Profile links">
-        <a href="mailto:mayankverma210405@gmail.com">Email ↗</a>
-        <a
-          href="https://www.linkedin.com/in/mayankverma2128/"
-          target="_blank"
-          rel="noreferrer"
-          >LinkedIn ↗</a
-        >
-        <a
-          href="https://github.com/Mayankverma210405"
-          target="_blank"
-          rel="noreferrer"
-          >GitHub ↗</a
-        >
+      <div class="nav-links" id="nav-links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#contact" class="nav-contact">Let's talk <span aria-hidden="true">↗</span></a>
       </div>
-      <p>
-        © <span data-year></span> Mayank Verma. Engineered with care &amp;
-        curiosity.
-      </p>
-    </footer>
-  </body>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES <span class="eyebrow-divider">//</span> INDIA</div>
+        <p class="hero-intro">HELLO, I'M MAYANK VERMA</p>
+        <h1 id="hero-title">I BUILD<br /><span>WHAT DATA</span><br />RUNS ON<span class="period">.</span></h1>
+        <p class="hero-description">Data systems, analytical tools, and applied AI workflows. I care about how things work underneath—and whether they solve the problem above.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="https://drive.google.com/file/d/15LtGEQETgXckrQEQxzCgIiq01x6iUoiE/view?usp=sharing" target="_blank" rel="noopener noreferrer">View résumé <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-socials" aria-label="Social profiles">
+          <a href="https://github.com/Mayankverma210405" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+          <a href="https://www.linkedin.com/in/mayank-verma-0381b8366/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+          <a href="mailto:mayankverma210405@gmail.com">EMAIL ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="visual-grid"></div>
+        <div class="visual-label visual-label-top">FIG. 01 / SYSTEM THINKING</div>
+        <div class="core">
+          <div class="core-orbit core-orbit-one"></div>
+          <div class="core-orbit core-orbit-two"></div>
+          <div class="core-cube cube-back"></div>
+          <div class="core-cube cube-front"><span>MV<span class="core-pixel">■</span></span></div>
+          <div class="orbit-node node-one"></div>
+          <div class="orbit-node node-two"></div>
+        </div>
+        <div class="visual-data">
+          <span>INPUT <b>→</b> SYSTEM <b>→</b> INSIGHT</span>
+          <span class="visual-bars">▰ ▰ ▰ ▱</span>
+        </div>
+        <div class="visual-label visual-label-bottom">DESIGNED TO THINK BEYOND THE UI.</div>
+      </div>
+    </section>
+
+    <div class="section-divider container"><span>SCROLL TO EXPLORE</span><span aria-hidden="true">↓</span></div>
+
+    <section class="section container" id="work" aria-labelledby="work-title">
+      <div class="section-heading reveal">
+        <div><p class="section-index">01 / SELECTED WORK</p><h2 id="work-title">Projects with<br /><em>something to say.</em></h2></div>
+        <p class="section-aside">A few systems I've built across data engineering, AI workflows, and product development.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project project-featured reveal">
+          <div class="project-art art-olap" aria-hidden="true">
+            <div class="art-topline"><span>DATA / QUERY ENGINE</span><span>01 — 04</span></div>
+            <div class="query-window">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span class="code-muted">-- query directly from cloud storage</span>
+              <span><b>SELECT</b> region, <b>SUM</b>(revenue)</span>
+              <span><b>FROM</b> s3_dataset</span>
+              <span><b>GROUP BY</b> region;</span>
+              <div class="query-result"><span>REGION</span><span>REVENUE</span><span>North</span><span>███████</span><span>South</span><span>█████</span></div>
+            </div>
+            <span class="art-corner">S3 → DUCKDB → ANSWER</span>
+          </div>
+          <div class="project-info">
+            <p class="project-number">PROJECT_001 <span>DATA ENGINEERING</span></p>
+            <h3>S3-Native<br />OLAP Engine</h3>
+            <p>An analytical query engine for CSV data in Amazon S3, using presigned uploads and DuckDB to keep file transfer away from the application server.</p>
+            <div class="tags"><span>Python</span><span>FastAPI</span><span>DuckDB</span><span>AWS S3</span></div>
+            <div class="project-links">
+              <a href="https://github.com/Mayankverma210405/S3-Native-Decoupled-Compute-OLAP-Query-Engine" target="_blank" rel="noopener noreferrer">Explore source <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-art art-changegraph" aria-hidden="true">
+            <div class="art-topline"><span>RELEASE INTELLIGENCE</span><span>02 — 04</span></div>
+            <div class="diff-card">
+              <div class="diff-head"><span class="pixel-cluster">▪ ▪ ▪</span> IMPACT ANALYSIS <span>↗</span></div>
+              <div class="diff-row"><span class="minus">−</span> baseline workflow</div>
+              <div class="diff-row"><span class="plus">+</span> candidate workflow</div>
+              <div class="diff-line"></div>
+              <div class="diff-footer"><span>CHANGE DETECTED</span><span class="risk-pill">REVIEW</span></div>
+            </div>
+            <span class="art-corner">COMPARE / ANALYZE / PLAN</span>
+          </div>
+          <div class="project-info">
+            <p class="project-number">PROJECT_002 <span>APPLIED AI</span></p>
+            <h3>ChangeGraph<br />Release Intelligence</h3>
+            <p>A workflow that compares versions of AI systems, analyzes the impact of changes, and helps generate a structured release plan.</p>
+            <div class="tags"><span>AI Workflows</span><span>Next.js</span><span>Release Analysis</span></div>
+            <div class="project-links">
+              <a href="https://changegraph-release-intelligence.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/Mayankverma210405/AgentKit-lamantic" target="_blank" rel="noopener noreferrer">Source <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-art art-orchestrator" aria-hidden="true">
+            <div class="art-topline"><span>LOCAL-FIRST AI</span><span>03 — 04</span></div>
+            <div class="flow">
+              <div class="flow-node">INPUT <span>01</span></div><div class="flow-connector"></div>
+              <div class="flow-node flow-node-active">PARSE <span>02</span></div><div class="flow-connector"></div>
+              <div class="flow-node">ROUTE <span>03</span></div><div class="flow-connector"></div>
+              <div class="flow-node">ACT <span>04</span></div>
+            </div>
+            <span class="art-corner">LANGUAGE → STRUCTURE → ACTION</span>
+          </div>
+          <div class="project-info">
+            <p class="project-number">PROJECT_003 <span>AI AUTOMATION</span></p>
+            <h3>Local AI<br />Orchestrator</h3>
+            <p>A local-first workflow that interprets requests, extracts structured intent, and routes tasks through n8n and a locally hosted model.</p>
+            <div class="tags"><span>LocalAI</span><span>n8n</span><span>Node.js</span><span>Docker</span></div>
+            <div class="project-links">
+              <a href="https://github.com/Mayankverma210405/n8n-based-localai-workflow-Orchestrator" target="_blank" rel="noopener noreferrer">Explore source <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-art art-stockpilot" aria-hidden="true">
+            <div class="art-topline"><span>PRODUCT ENGINEERING</span><span>04 — 04</span></div>
+            <div class="stock-window">
+              <div class="stock-title"><span>STOCKPILOT / OVERVIEW</span><span>● LIVE</span></div>
+              <div class="stock-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="stock-metrics"><span>PRODUCTS <b>128</b></span><span>WAREHOUSES <b>04</b></span><span>ALERTS <b>03</b></span></div>
+            </div>
+            <span class="art-corner">TRACK / MOVE / REPORT</span>
+          </div>
+          <div class="project-info">
+            <p class="project-number">PROJECT_004 <span>WEB APPLICATION</span></p>
+            <h3>StockPilot<br />Inventory</h3>
+            <p>An inventory management interface for tracking products, warehouses, stock movements, and low-stock alerts.</p>
+            <div class="tags"><span>React</span><span>TypeScript</span><span>Vite</span></div>
+            <div class="project-links">
+              <a href="https://stock-pilot-inventory-management.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/Mayankverma210405/StockPilot-Inventory-Management" target="_blank" rel="noopener noreferrer">Source <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-band" id="about" aria-labelledby="about-title">
+      <div class="container about-layout">
+        <div class="about-heading reveal">
+          <p class="section-index">02 / THE PERSON BEHIND THE PROJECTS</p>
+          <h2 id="about-title">Curious about<br /><em>the whole system.</em></h2>
+          <div class="about-decoration" aria-hidden="true"><span>■</span><span>■</span><span>■</span><span>■</span></div>
+        </div>
+        <div class="about-content reveal">
+          <p class="about-lead">I'm Mayank, a Computer Science and Engineering graduate from JIIT Noida.</p>
+          <p>My work spans analytical data systems, backend services, and AI workflows. I like projects where the interesting decisions happen in the architecture: how data moves, where work runs, and how a result becomes useful.</p>
+          <div class="experience-card">
+            <div class="experience-top"><span>EXPERIENCE / 01</span><span>AI / ML</span></div>
+            <h3>AI/ML Intern <span>↗</span></h3>
+            <p class="experience-company">NaapJhok Pvt Ltd</p>
+            <p>Worked on recommendation and appointment-scheduling problems, including matching customer needs with services and improving how appointments are planned.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container toolkit-section" id="toolkit" aria-labelledby="toolkit-title">
+      <div class="section-heading reveal">
+        <div><p class="section-index">03 / TOOLKIT</p><h2 id="toolkit-title">Tools are useful.<br /><em>Judgment matters more.</em></h2></div>
+        <p class="section-aside">Technologies I've used to build and explore these systems.</p>
+      </div>
+      <div class="toolkit-grid reveal">
+        <div class="toolkit-group"><span class="toolkit-icon">01</span><h3>Languages</h3><p>Python / SQL / JavaScript / TypeScript / C++</p></div>
+        <div class="toolkit-group"><span class="toolkit-icon">02</span><h3>Data & backend</h3><p>PostgreSQL / MySQL / DuckDB / FastAPI / REST APIs</p></div>
+        <div class="toolkit-group"><span class="toolkit-icon">03</span><h3>Cloud & systems</h3><p>AWS S3 / AWS EC2 / Docker / n8n</p></div>
+        <div class="toolkit-group"><span class="toolkit-icon">04</span><h3>AI & product</h3><p>Scikit-learn / LLM workflows / React / Vite</p></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner reveal">
+        <p class="section-index">04 / MAKE CONTACT</p>
+        <h2 id="contact-title">Have a problem<br /><em>worth solving?</em></h2>
+        <p>I'm interested in data engineering, software engineering, and applied AI opportunities. Tell me what you're building.</p>
+        <a class="contact-cta" href="mailto:mayankverma210405@gmail.com">LET'S TALK <span aria-hidden="true">↗</span></a>
+        <div class="contact-links">
+          <a href="mailto:mayankverma210405@gmail.com">Email ↗</a>
+          <a href="https://github.com/Mayankverma210405" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/mayank-verma-0381b8366/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://drive.google.com/file/d/15LtGEQETgXckrQEQxzCgIiq01x6iUoiE/view?usp=sharing" target="_blank" rel="noopener noreferrer">Résumé ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>© <span id="year">2026</span> MAYANK VERMA</span><a href="#home">BACK TO TOP ↑</a><span>BUILT WITH INTENTION ■</span></div>
+  </footer>
+</body>
 </html>
